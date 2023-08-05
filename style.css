@@ -29,9 +29,7 @@ dt::after {
   position: absolute;
   top: 8px;
   right: 16px;
-
 }
-
 
 dd {
   padding: 8px;
@@ -43,3 +41,10 @@ dd::before {
   content: 'A. ';
 }
 
+dl > div.appear dd {
+  display: block;
+}
+
+dl > div.appear dt::after {
+  transform: rotate(45deg);
+}
